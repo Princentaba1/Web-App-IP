@@ -1,9 +1,19 @@
 body{
     background-color: black;
     color: aliceblue;
-}
+    }
 .container1{
     display:flex;
     justify-content: center;
     align-items:center;
+    }
+.img{
+    height: 50px;
+    width: 10px;
+    }
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large
 }
