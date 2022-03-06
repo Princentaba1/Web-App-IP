@@ -1,4 +1,9 @@
 body{
     background-color: black;
-    padding: 0%;
+    color: aliceblue;
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
