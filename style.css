@@ -17,3 +17,9 @@ body{
     align-items: center;
     font-size:xx-large
     }
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
