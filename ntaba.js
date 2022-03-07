@@ -14,7 +14,7 @@ function kamal(){
     let day1=ntaba.value
 let gender3=gender1.value
 let gender4=gender2.value
-
+    
     if(gender3==="male"&day1==="Sunday"){
         akan.innerText=`${maleNames[0]}`
         }else if(gender3==="male"&day1==="Monday"){
@@ -29,7 +29,7 @@ let gender4=gender2.value
         akan.innerText=`${maleNames[5]}`    
                             }else if(gender3==="male"&day1==="Saturday"){
         akan.innerText=`${maleNames[6]}`
-    }}
+    }
     
     if(gender4==="female"&day1==="Sunday"){
         akan.innerText=`${femaleNames[0]}`
@@ -50,3 +50,4 @@ let gender4=gender2.value
     else{
         akan.innerText="invalid input"
     }
+}
