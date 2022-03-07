@@ -3,8 +3,8 @@ let gender1=document.getElementById("Male")
 let gender2=document.querySelector("#Female")
 let akan=document.getElementById("AKAN")
 let highway=document.getElementById("locator")
-let maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
-let femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+let maleNames=["KWASI","KWADWO","KWABENA","KWAKU","YAW","KOFI","KWAME"]
+let femaleNames=["AKOSUA","ADWOA","ABENNA","AKUA","YAA","AFUA","AMA"]
 console.log(highway);
 highway.addEventListener("submit",(y)=>{
     y.preventDefault()
@@ -29,8 +29,9 @@ let gender4=gender2.value
         akan.innerText=`${maleNames[5]}`    
                             }else if(gender3==="male"&day1==="Saturday"){
         akan.innerText=`${maleNames[6]}`
-
-        if(gender4==="female"&day1==="Sunday"){
+    }
+    
+    if(gender4==="female"&day1==="Sunday"){
         akan.innerText=`${femaleNames[0]}`
     }else if(gender4==="female"&day1==="Monday"){
     akan.innerText=`${femaleNames[1]}`
@@ -48,4 +49,4 @@ let gender4=gender2.value
 
     else{
         akan.innerText="invalid input"
-    }}}
+    }}

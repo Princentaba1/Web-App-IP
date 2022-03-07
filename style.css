@@ -22,11 +22,15 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+    font-size: larger;
+    }
 #AKAN{
     color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: x-large;
-}
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    }
