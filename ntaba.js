@@ -29,7 +29,7 @@ let gender4=gender2.value
         akan.innerText=`${maleNames[5]}`    
                             }else if(gender3==="male"&day1==="Saturday"){
         akan.innerText=`${maleNames[6]}`
-    }
+    }}
     
     if(gender4==="female"&day1==="Sunday"){
         akan.innerText=`${femaleNames[0]}`
@@ -49,4 +49,4 @@ let gender4=gender2.value
 
     else{
         akan.innerText="invalid input"
-    }}
+    }
