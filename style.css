@@ -24,5 +24,9 @@ form{
     flex-direction: column;
 }
 #AKAN{
-    color: aliceblue;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
 }

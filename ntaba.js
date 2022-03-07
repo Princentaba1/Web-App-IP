@@ -4,7 +4,7 @@ let gender2=document.querySelector("#Female")
 let akan=document.getElementById("AKAN")
 let highway=document.getElementById("locator")
 let maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
-let femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"}
+let femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 console.log(highway);
 highway.addEventListener("submit",(y)=>{
     y.preventDefault()
@@ -30,4 +30,4 @@ let gender4=gender2.value
         akan.innerText=`${maleNames[6]}`         
     }else{
         akan.innerText="invalid input"
-    }
+    }}
